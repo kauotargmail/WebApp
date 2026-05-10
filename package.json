@@ -1,0 +1,12 @@
+{
+  "name": "smtp-email-sender",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"npm --prefix backend run start\" \"npm --prefix frontend run start\"",
+    "backend": "npm --prefix backend run start",
+    "frontend": "npm --prefix frontend run start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
