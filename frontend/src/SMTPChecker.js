@@ -1,6 +1,9 @@
 import React, { useState, useCallback } from 'react';
 import toast from 'react-hot-toast';
 import SMTPChecker from './SMTPChecker';
+
+const API = process.env.REACT_APP_API_URL || (window.location.hostname === 'localhost' ? 'http://localhost:3001' : '');
+
 function SMTPChecker() {
   const [smtpList, setSmtpList] = useState([]);
   const [checking, setChecking] = useState(false);
@@ -89,7 +92,7 @@ function SMTPChecker() {
     const startTime = Date.now();
     
     try {
-      fetch('http://localhost:3001/api/smtp-servers/test', {
+      const response = await fetch(`${API}/api/smtp-servers/test`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -222,7 +225,7 @@ function SMTPChecker() {
     
     for (const smtp of workingSMTPS) {
       try {
-        fetch('http://localhost:3001/api/smtp-servers', {
+        const response = await fetch(`${API}/api/smtp-servers`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({

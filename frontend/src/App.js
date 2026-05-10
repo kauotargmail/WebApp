@@ -34,7 +34,7 @@ const fmt24 = (d) => {
 };
 
 // ─── API helper (never JSON.parse raw — avoids crash when backend returns HTML/text) ──
-const API = process.env.REACT_APP_API_URL || 'http://localhost:3001';
+const API = process.env.REACT_APP_API_URL || (window.location.hostname === 'localhost' ? 'http://localhost:3001' : '');
 
 const apiFetch = async (path, opts = {}) => {
     const headers = { ...(opts.headers || {}) };
