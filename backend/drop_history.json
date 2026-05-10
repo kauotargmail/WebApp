@@ -1,0 +1,369 @@
+[
+  {
+    "id": 40846,
+    "campaign_id": 40831,
+    "name": "zack",
+    "sent": 0,
+    "failed": 2,
+    "hard": 0,
+    "soft": 0,
+    "policy": 0,
+    "unknown": 2,
+    "smtpBreakdown": {},
+    "domainStats": {
+      "gmail.com": {
+        "sent": 0,
+        "failed": 2
+      }
+    },
+    "ts": "2026-05-07T07:14:28.084Z"
+  },
+  {
+    "id": 40854,
+    "campaign_id": 40847,
+    "name": "New Campaign 1778138180695",
+    "sent": 0,
+    "failed": 2,
+    "hard": 0,
+    "soft": 0,
+    "policy": 0,
+    "unknown": 2,
+    "smtpBreakdown": {},
+    "domainStats": {
+      "gmail.com": {
+        "sent": 0,
+        "failed": 2
+      }
+    },
+    "ts": "2026-05-07T07:16:50.635Z"
+  },
+  {
+    "id": 40859,
+    "campaign_id": 40847,
+    "name": "New Campaign 1778138180695",
+    "sent": 0,
+    "failed": 2,
+    "hard": 0,
+    "soft": 0,
+    "policy": 0,
+    "unknown": 2,
+    "smtpBreakdown": {},
+    "domainStats": {
+      "gmail.com": {
+        "sent": 0,
+        "failed": 2
+      }
+    },
+    "ts": "2026-05-07T07:22:57.994Z"
+  },
+  {
+    "id": 40864,
+    "campaign_id": 40847,
+    "name": "New Campaign 1778138180695",
+    "sent": 0,
+    "failed": 2,
+    "hard": 0,
+    "soft": 0,
+    "policy": 0,
+    "unknown": 2,
+    "smtpBreakdown": {},
+    "domainStats": {
+      "gmail.com": {
+        "sent": 0,
+        "failed": 2
+      }
+    },
+    "ts": "2026-05-07T07:23:54.441Z"
+  },
+  {
+    "id": 40869,
+    "campaign_id": 40847,
+    "name": "New Campaign 1778138180695",
+    "sent": 0,
+    "failed": 2,
+    "hard": 0,
+    "soft": 0,
+    "policy": 0,
+    "unknown": 2,
+    "smtpBreakdown": {},
+    "domainStats": {
+      "gmail.com": {
+        "sent": 0,
+        "failed": 2
+      }
+    },
+    "ts": "2026-05-07T07:31:13.463Z"
+  },
+  {
+    "id": 40874,
+    "campaign_id": 40847,
+    "name": "New Campaign 1778138180695",
+    "sent": 0,
+    "failed": 2,
+    "hard": 0,
+    "soft": 0,
+    "policy": 0,
+    "unknown": 2,
+    "smtpBreakdown": {},
+    "domainStats": {
+      "gmail.com": {
+        "sent": 0,
+        "failed": 2
+      }
+    },
+    "ts": "2026-05-07T07:32:27.264Z"
+  },
+  {
+    "id": 40877,
+    "campaign_id": 40847,
+    "name": "New Campaign 1778138180695",
+    "sent": 2,
+    "failed": 0,
+    "hard": 0,
+    "soft": 0,
+    "policy": 0,
+    "unknown": 0,
+    "smtpBreakdown": {
+      "chicomigue505@gmail.com": 2
+    },
+    "domainStats": {
+      "gmail.com": {
+        "sent": 2,
+        "failed": 0
+      }
+    },
+    "ts": "2026-05-07T07:37:22.531Z"
+  },
+  {
+    "id": 40883,
+    "campaign_id": 40878,
+    "name": "New Campaign 1778138180695 (copy)",
+    "sent": 2,
+    "failed": 0,
+    "hard": 0,
+    "soft": 0,
+    "policy": 0,
+    "unknown": 0,
+    "smtpBreakdown": {
+      "chicomigue505@gmail.com": 2
+    },
+    "domainStats": {
+      "gmail.com": {
+        "sent": 2,
+        "failed": 0
+      }
+    },
+    "ts": "2026-05-07T07:42:27.766Z"
+  },
+  {
+    "id": 40886,
+    "campaign_id": 40878,
+    "name": "New Campaign 1778138180695 (copy)",
+    "sent": 2,
+    "failed": 0,
+    "hard": 0,
+    "soft": 0,
+    "policy": 0,
+    "unknown": 0,
+    "smtpBreakdown": {
+      "chicomigue505@gmail.com": 2
+    },
+    "domainStats": {
+      "gmail.com": {
+        "sent": 2,
+        "failed": 0
+      }
+    },
+    "ts": "2026-05-07T07:52:39.104Z"
+  },
+  {
+    "id": 40893,
+    "campaign_id": 40878,
+    "name": "New Campaign 1778138180695 (copy)",
+    "sent": 2,
+    "failed": 2,
+    "hard": 0,
+    "soft": 0,
+    "policy": 0,
+    "unknown": 2,
+    "smtpBreakdown": {
+      "chicomigue505@gmail.com": 2
+    },
+    "domainStats": {
+      "gmail.com": {
+        "sent": 2,
+        "failed": 2
+      }
+    },
+    "ts": "2026-05-07T08:14:10.189Z"
+  },
+  {
+    "id": 40900,
+    "campaign_id": 40878,
+    "name": "New Campaign 1778138180695 (copy",
+    "sent": 2,
+    "failed": 2,
+    "hard": 0,
+    "soft": 0,
+    "policy": 0,
+    "unknown": 2,
+    "smtpBreakdown": {
+      "chicomigue505@gmail.com": 2
+    },
+    "domainStats": {
+      "gmail.com": {
+        "sent": 2,
+        "failed": 2
+      }
+    },
+    "ts": "2026-05-07T08:15:31.009Z"
+  },
+  {
+    "id": 40905,
+    "campaign_id": 32676,
+    "name": "AutoAccidentConsultants — Professional SEO (copy)",
+    "sent": 3,
+    "failed": 1,
+    "hard": 0,
+    "soft": 0,
+    "policy": 0,
+    "unknown": 0,
+    "smtpBreakdown": {
+      "chicomigue505@gmail.com": 1,
+      "lucasmodric501@gmail.com": 1
+    },
+    "domainStats": {
+      "gmail.com": {
+        "sent": 2,
+        "failed": 0
+      }
+    },
+    "ts": "2026-05-07T08:41:09.054Z"
+  },
+  {
+    "id": 40911,
+    "campaign_id": 40906,
+    "name": "New Campaign 1778154884312",
+    "sent": 2,
+    "failed": 0,
+    "hard": 0,
+    "soft": 0,
+    "policy": 0,
+    "unknown": 0,
+    "smtpBreakdown": {
+      "chicomigue505@gmail.com": 2
+    },
+    "domainStats": {
+      "gmail.com": {
+        "sent": 2,
+        "failed": 0
+      }
+    },
+    "ts": "2026-05-07T11:55:08.898Z"
+  },
+  {
+    "id": 40923,
+    "campaign_id": 40914,
+    "name": "New Campaign 1778238980249",
+    "sent": 2,
+    "failed": 2,
+    "hard": 0,
+    "soft": 0,
+    "policy": 0,
+    "unknown": 2,
+    "smtpBreakdown": {
+      "chicomigue505@gmail.com": 2
+    },
+    "domainStats": {
+      "gmail.com": {
+        "sent": 2,
+        "failed": 2
+      }
+    },
+    "ts": "2026-05-08T11:16:42.943Z"
+  },
+  {
+    "id": 40926,
+    "campaign_id": 40914,
+    "name": "New Campaign 1778238980249",
+    "sent": 2,
+    "failed": 0,
+    "hard": 0,
+    "soft": 0,
+    "policy": 0,
+    "unknown": 0,
+    "smtpBreakdown": {
+      "chicomigue505@gmail.com": 2
+    },
+    "domainStats": {
+      "gmail.com": {
+        "sent": 2,
+        "failed": 0
+      }
+    },
+    "ts": "2026-05-08T11:39:02.701Z"
+  },
+  {
+    "id": 40935,
+    "campaign_id": 40930,
+    "name": "New Campaign 1778298874511",
+    "sent": 2,
+    "failed": 0,
+    "hard": 0,
+    "soft": 0,
+    "policy": 0,
+    "unknown": 0,
+    "smtpBreakdown": {
+      "chicomigue505@gmail.com": 2
+    },
+    "domainStats": {
+      "gmail.com": {
+        "sent": 2,
+        "failed": 0
+      }
+    },
+    "ts": "2026-05-09T03:54:58.244Z"
+  },
+  {
+    "id": 40938,
+    "campaign_id": 40930,
+    "name": "New Campaign 1778298874511",
+    "sent": 2,
+    "failed": 0,
+    "hard": 0,
+    "soft": 0,
+    "policy": 0,
+    "unknown": 0,
+    "smtpBreakdown": {
+      "chicomigue505@gmail.com": 2
+    },
+    "domainStats": {
+      "gmail.com": {
+        "sent": 2,
+        "failed": 0
+      }
+    },
+    "ts": "2026-05-09T04:09:54.448Z"
+  },
+  {
+    "id": 40949,
+    "campaign_id": 40944,
+    "name": "New Campaign 1778377157070",
+    "sent": 2,
+    "failed": 0,
+    "hard": 0,
+    "soft": 0,
+    "policy": 0,
+    "unknown": 0,
+    "smtpBreakdown": {
+      "chicomigue505@gmail.com": 2
+    },
+    "domainStats": {
+      "gmail.com": {
+        "sent": 2,
+        "failed": 0
+      }
+    },
+    "ts": "2026-05-10T01:40:28.894Z"
+  }
+]
