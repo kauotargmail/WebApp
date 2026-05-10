@@ -11,7 +11,7 @@ const axios = require('axios');
 // Public DNS is set globally in the MX validation section below
 
 const app = express();
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
 
 app.use(cors());
 app.use(express.json({ limit: '50mb' }));
@@ -2868,6 +2868,17 @@ app.get('/api/domain-stats', (req, res) => {
         .sort((a, b) => b.total - a.total);
     res.json({ success: true, domains: sorted });
 });
+
+// ─── Serve Frontend in Production ────────────────────────────────────────────
+if (process.env.NODE_ENV === 'production') {
+    // Serve any static files
+    app.use(express.static(path.join(__dirname, '../frontend/build')));
+
+    // Handle React routing, return all requests to React app
+    app.get('*', (req, res) => {
+        res.sendFile(path.join(__dirname, '../frontend/build', 'index.html'));
+    });
+}
 
 // ════════════════════════════════════════════════════════════════════════════
 //  START
